@@ -1,6 +1,6 @@
 # SSH Jump Helpers for PuTTY and OpenSSH
 
-This repository contains two Windows batch scripts for multi hop SSH access when using `plink -proxycmd`.
+This repository contains two Windows batch scripts for multi hop SSH access when using `plink -proxycmd` (Although initial target was putty/putty, this can be used interchangeably with ssh too)
 
 - `pjump.bat` builds a plink to plink proxy chain
 - `jump.bat` delegates proxying to OpenSSH `ssh -J ... -W ...`
